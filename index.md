@@ -1,5 +1,5 @@
 ---
-title: The Case of the Italian Olives
+title: Recommendation System for Restaurants using Yelp dataset
 ---
 
 This is the home page

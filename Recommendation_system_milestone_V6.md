@@ -1,5 +1,5 @@
 ---
-title: function for error calculation
+title: Exploratory Data Analysis
 notebook: Recommendation_system_milestone_V6.ipynb
 nav_include: 1
 ---

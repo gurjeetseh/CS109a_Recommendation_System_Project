@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
-title: Support Vector Olives
-description: Keeping Italian Olives Pure!
+title: Restaurant Recommendation System Introduction
+description: 
 baseurl:
 markdown: kramdown
 kramdown:
