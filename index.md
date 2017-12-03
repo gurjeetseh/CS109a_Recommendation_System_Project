@@ -23,16 +23,16 @@ This recommender system focuses on predicting the rating that a user would have 
 	The academic dataset (https://www.yelp.com/dataset/challenge) from yelp was downloaded and untarred.
 
 Description of Yelp data:
-•	business.json: Contains business data including location, attributes, and categories. 
-•	review.json: Contains full review text data including the user_id that wrote the review and the business_id the review is written for and the review stars and usefulness. 
-•	user.json: Contains the user's friend mapping and all the metadata associated with the user. 
+1. business.json: Contains business data including location, attributes, and categories. 
+2. review.json: Contains full review text data including the user_id that wrote the review and the business_id the review is written for and the review stars and usefulness. 
+3. user.json: Contains the user's friend mapping and all the metadata associated with the user. 
 
 **Data Preparation:**
 The following steps are used in preparing data for analysis & prediction:
  	
-•	Large Dataset: As the dataset is huge, we only took 100K samples of the observations from each dataset (businesses, users and reviews) to perform the initial EDA.
-•	Combining Data: The sample data was observed to be clean and we merged the dataset based on unique keys.
-•	Filtering: We filtered it down to the restaurants by selecting businesses based on category ‘Food’; for reviews/users we only included the data which was for the restaurants in the sample.
-•	Visualization: We used bar charts, histograms, scatter plots and distribution plots to explore the data and understand the data patterns for the restaurants’ reviews.
-•	Ratings are integers ranging between 1 and 5. The loss function to compare various methods is measured by the root mean squared error (RMSE).
+1. Large Dataset: As the dataset is huge, we only took 100K samples of the observations from each dataset (businesses, users and reviews) to perform the initial EDA.
+2. Combining Data: The sample data was observed to be clean and we merged the dataset based on unique keys.
+3. Filtering: We filtered it down to the restaurants by selecting businesses based on category ‘Food’; for reviews/users we only included the data which was for the restaurants in the sample.
+4. Visualization: We used bar charts, histograms, scatter plots and distribution plots to explore the data and understand the data patterns for the restaurants’ reviews.
+5. Ratings are integers ranging between 1 and 5. The loss function to compare various methods is measured by the root mean squared error (RMSE).
 
