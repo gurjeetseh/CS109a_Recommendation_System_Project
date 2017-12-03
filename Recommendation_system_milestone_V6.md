@@ -52,9 +52,7 @@ c2=sns.color_palette()[2]
 ```
 
 
-<font color='green'>
-
-### As we have large amounf data so we are loading data line by line in dataframe business_df, review_df, user_df
+As we have large amounf data so we are loading data line by line in dataframe business_df, review_df, user_df
 
 
 
@@ -78,8 +76,7 @@ user_df = readjson('./dataset/user.json')
 ```
 
 
-<font color='green'>
-### Getting reaturants out of business dataframe based on Food category
+Getting reaturants out of business dataframe based on Food category
 
 
 
@@ -757,114 +754,25 @@ review_df.head(2)
 
 
 ```python
+
 user_df.head(2)
 ```
 
 
 
+    ---------------------------------------------------------------------------
+
+    NameError                                 Traceback (most recent call last)
+
+    <ipython-input-1-5d33de3b7f79> in <module>()
+          1 
+    ----> 2 user_df.head(2)
+    
+
+    NameError: name 'user_df' is not defined
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>average_stars</th>
-      <th>compliment_cool</th>
-      <th>compliment_cute</th>
-      <th>compliment_funny</th>
-      <th>compliment_hot</th>
-      <th>compliment_list</th>
-      <th>compliment_more</th>
-      <th>compliment_note</th>
-      <th>compliment_photos</th>
-      <th>compliment_plain</th>
-      <th>compliment_profile</th>
-      <th>compliment_writer</th>
-      <th>cool</th>
-      <th>elite</th>
-      <th>fans</th>
-      <th>friends</th>
-      <th>funny</th>
-      <th>name</th>
-      <th>review_count</th>
-      <th>useful</th>
-      <th>user_id</th>
-      <th>yelping_since</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>3.80</td>
-      <td>5174</td>
-      <td>284</td>
-      <td>5174</td>
-      <td>5175</td>
-      <td>78</td>
-      <td>299</td>
-      <td>1435</td>
-      <td>7829</td>
-      <td>7397</td>
-      <td>569</td>
-      <td>1834</td>
-      <td>16856</td>
-      <td>[2014, 2016, 2013, 2011, 2012, 2015, 2010, 2017]</td>
-      <td>209</td>
-      <td>[M19NwFwAXKRZzt8koF11hQ, QRcMZ8pJJBBZaKubHOoMD...</td>
-      <td>16605</td>
-      <td>Cin</td>
-      <td>272</td>
-      <td>17019</td>
-      <td>lsSiIjAKVl-QRxKjRErBeg</td>
-      <td>2010-07-13</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>3.94</td>
-      <td>1556</td>
-      <td>211</td>
-      <td>1556</td>
-      <td>1285</td>
-      <td>101</td>
-      <td>134</td>
-      <td>1295</td>
-      <td>162</td>
-      <td>2134</td>
-      <td>74</td>
-      <td>402</td>
-      <td>40110</td>
-      <td>[2014, 2017, 2011, 2012, 2015, 2009, 2013, 200...</td>
-      <td>835</td>
-      <td>[eoSSJzdprj3jxXyi94vDXg, QF0urZa-0bxga17ZeY-9l...</td>
-      <td>10882</td>
-      <td>Andrea</td>
-      <td>2559</td>
-      <td>83681</td>
-      <td>om5ZiponkpRqUNa3pVPiRg</td>
-      <td>2006-01-18</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-
-<font color='green'>
-### Performing Exploratory data analysis
+Performing Exploratory data analysis
 
 
 
@@ -878,8 +786,7 @@ sns.pairplot(restaurant_df.iloc[0:10000,:]);
 
 
 ## Distribution count of Restaurant rating 
-<font color='green'>
-### We can see below more restaurants get 4 rating than other ratings
+We can see below more restaurants get 4 rating than other ratings
 
 
 
@@ -900,8 +807,7 @@ ax.set_title('Distribution(count) of Restaurant rating',size=20);
 
 
 ## Distribution count of Reviews rating for restaurants 
-<font color='green'>
-### We can see below more reviews have 5 rating than other ratings
+We can see below more reviews have 5 rating than other ratings
 
 
 
@@ -931,8 +837,7 @@ ax.set_title('Distribution(count) of different Reviews rating',size=20)
 
 
 ## Distribution count of user rating for restaurants 
-<font color='green'>
-### We can see below  users have around mean of 3.7  rating
+We can see below  users have around mean of 3.7  rating
 
 
 
@@ -964,8 +869,7 @@ ax.set_title('Distribution(count) of User given rating',size=20)
 
 
 ## Scatter plot various features 
-<font color='green'>
-### We can see that useful, funny and cool are correlated 
+We can see that useful, funny and cool are correlated 
 
 
 
@@ -980,8 +884,7 @@ sns.pairplot(review_df_filter_df.iloc[0:10000,:]);
 
 
 ## Most Reviewed Restaurant
-<font color='green'>
-### Bouchon at the Venezia Tower is reviewed almost double as compared to others
+Bouchon at the Venezia Tower is reviewed almost double as compared to others
 
 
 
@@ -1006,8 +909,7 @@ sns.despine(left=True, bottom=True)
 
 
 ## Top 10 5 star rated Restaurant
-<font color='green'>
-### Poke Express is the top 5 star rated restaurant
+Poke Express is the top 5 star rated restaurant
 
 
 
@@ -1032,8 +934,7 @@ sns.despine(left=True, bottom=True)
 ![png](Recommendation_system_milestone_V6_files/Recommendation_system_milestone_V6_25_0.png)
 
 
-<font color='green'>
-### Getting different food categories from the restaurant dataframe
+Getting different food categories from the restaurant dataframe
 
 
 
@@ -1067,8 +968,7 @@ for food_category in food_categories:
 
 
 ## Distribution of review count with respect to Food Categories
-<font color='green'>
-### We can see American restaurant have higher count of reviews followed by Mexican
+We can see American restaurant have higher count of reviews followed by Mexican
 
 
 
@@ -1095,8 +995,7 @@ plt.ylabel('Count',fontsize=18)
 
 
 ## Distribution(count) of American, Mexican, Italian, Chinese Restaurant rating
-<font color='green'>
-### We can see American and Italian restaurants are rated higher than other restaurants
+We can see American and Italian restaurants are rated higher than other restaurants
 
 
 
@@ -1240,8 +1139,7 @@ sns.despine(left=True, bottom=True)
 
 
 ## Distribution of Review Count given by users and given to Restaurant
-<font color='green'>
-### We can see that most review count is with less number of users and restaurants
+We can see that most review count is with less number of users and restaurants
 
 
 
@@ -1267,6 +1165,7 @@ ax[1].set_title('Distribution of Review Count given to Restaurant',size=20);
 
 
 ![png](Recommendation_system_milestone_V6_files/Recommendation_system_milestone_V6_40_0.png)
+
 
 
 ##  Creating Baseline Model
@@ -1446,8 +1345,7 @@ complete_df.head(2)
 
 
 
-<font color='green'>
-#### Taking only user_id, business_id, stars_y and using the surprise library(https://pypi.python.org/pypi/scikit-surprise)
+Taking only user_id, business_id, stars_y and using the surprise library(https://pypi.python.org/pypi/scikit-surprise)
 Algorithm predicting the baseline estimate for given user and item.
 
 
@@ -1482,7 +1380,7 @@ data.split(n_folds=3)
 ```
 
 
-### BaselineOnly Model
+## BaselineOnly Model
 
 We used Surprise library for Baseline models. Surprise is a Python scikit for building, and analyzing (collaborative-filtering) recommender systems. Various algorithms are built-in, with a focus on rating prediction. 
 BaselineOnly is an algorithm predicting the baseline estimate for given user and item 
@@ -1529,10 +1427,9 @@ print_perf(perf_baseline)
     MAE     1.0153  1.0051  1.0204  1.0136  
 
 
-### KNNBaseline Model
+## KNNBaseline Model
 
-<font color = 'green'>
-#### KNN Based on user restaurant rating
+KNN Based on user restaurant rating
 
 
 
@@ -1918,7 +1815,7 @@ print('RMSE for testing Restaurant based Collaborative filtering: ', (rmse(resta
     RMSE for testing User based Collaborative filtering:  5.0
 
 
-### SVD
+## SVD
 
 Latent factor models (aka SVD) are an alternative approach that tries to explain the ratings by characterizing both items and users on number of factors inferred from the ratings patterns. Latent factor models are based on matrix factorization which characterizes both items and users by vectors of factors inferred from item rating patterns. High correspondence between item and user factors leads to a recommendation. From the results, we can see that prediction accuracy has improved by considering also implicit feedback, which provides an additional indication of user preferences.
 
@@ -1951,7 +1848,7 @@ print('RMSE for testing User based SVD Collaborative filtering: ', (rmse(X_pred_
     RMSE for testing User based SVD Collaborative filtering:  5.000000000000065
 
 
-### Meta Classifier
+## Meta Classifier
 
 We have used multiple models (neighborhoods & SVD) whose individual predictions are combined to classify new examples. Integration should improve predictive accuracy. Each of the models has a mediocre accuracy rate. We would have to increase the importance of the model with high accuracy, and reduce the importance of the models with lower accuracy. To do this in Python, one may use the predicted values as the predictors in a Logistic Regression model, and the corresponding y as the response. Logistic Regression can take the "importance" of each model into account: the "predictors" or models that do well most of the time will have the more significant coefficients.
 
@@ -2052,12 +1949,7 @@ pd.DataFrame.from_items(dict.items(),
     Train LogReg RMSE:  0.14115554579033043
 
 
-
-
-```python
 ## Model comparison via RMSE
-```
-
 
 
 
