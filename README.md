@@ -1,6 +1,4 @@
----
-title: Recommendation System for Restaurants using Yelp dataset
----
+## title: Recommendation System for Restaurants using Yelp dataset
 
 **Project statement:**
 
