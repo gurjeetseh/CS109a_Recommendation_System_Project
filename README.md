@@ -1,4 +1,5 @@
 ## Recommendation System for Restaurants using Yelp dataset
+(https://gurjeetseh.github.io/CS109a_Recommendation_System_Project/)
 
 **Project statement:**
 
@@ -34,5 +35,5 @@ The following steps are used in preparing data for analysis & prediction:
 5. Advances in Collaborative Filtering from the Netflix prize, https://datajobs.com/data-science-repo/Collaborative-Filtering-%5BKoren-and-Bell%5D.pdf
 6. Python Surprise library for models, https://pypi.python.org/pypi/scikit-surprise.
 7. Library for SVD, https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.svd.html
-8. Library for accessign Similarity, http://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.pairwise_distances.html
+8. Library for accessing Similarity, http://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.pairwise_distances.html
 
