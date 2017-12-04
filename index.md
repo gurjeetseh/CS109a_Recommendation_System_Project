@@ -10,7 +10,7 @@ This recommender system focuses on predicting the rating that a user would have 
 
 **Data Source:**
 
-	The academic dataset (https://www.yelp.com/dataset/challenge) from yelp was downloaded and untarred.
+The academic dataset (https://www.yelp.com/dataset/challenge) from yelp was downloaded and untarred.
 
 Description of Yelp data:
 1. business.json: Contains business data including location, attributes, and categories. 
@@ -28,6 +28,7 @@ The following steps are used in preparing data for analysis & prediction:
 5. Ratings are integers ranging between 1 and 5. The loss function to compare various methods is measured by the root mean squared error (RMSE).
 
 **References:**
+
 1. How the Netflix prize was won, http://blog.echen.me/2011/10/24/winning-the-netflix-prize-a-summary/
 2. Matrix factorization for recommender systems, https://datajobs.com/data-science-repo/Recommender-Systems-[Netflix].pdf
 3. Ensembling for the Netflix Prize, http://web.stanford.edu/~lmackey/papers/netflix_story-nas11-slides.pdf
