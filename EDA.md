@@ -1,5 +1,5 @@
 ---
-title: EDA
+title: Exploratory Data Analysis
 notebook: EDA.ipynb
 nav_include: 1
 ---

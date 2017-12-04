@@ -1,5 +1,5 @@
 ---
-title: function for error calculation
+title: Recommendation System Models
 notebook: Model.ipynb
 nav_include: 2
 ---
