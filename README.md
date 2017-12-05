@@ -10,7 +10,7 @@ Restaurants is one of the major industry that has close ties with humans’ nece
 
 This recommender system focuses on predicting the rating that a user would have given to a certain restaurant, which is used to rank all the restaurants including those that have not been rated by the user. 
 
-** Introduction and Description of Data:**
+**Introduction and Description of Data:**
 
 The academic dataset (https://www.yelp.com/dataset/challenge) from yelp was downloaded and untarred.
 
