@@ -1,4 +1,4 @@
-*Recommendation System for Restaurants using Yelp dataset*
+# Recommendation System for Restaurants using Yelp dataset
 (Website link: https://gurjeetseh.github.io/CS109a_Recommendation_System_Project/)
 
 
